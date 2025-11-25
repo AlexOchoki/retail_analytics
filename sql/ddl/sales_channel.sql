@@ -1,4 +1,4 @@
---- Sales_channel
+--- Sales_channel (Spark SQL compartible)
 
 CREATE TABLE IF NOT EXISTS sales_channel (
     sales_channel_id    INT GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1),
